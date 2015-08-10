@@ -4,6 +4,11 @@ import sys
 from graph import PlotGraph
 from config import assets_path
 
+__author__ = "Akas Antony"
+__version__ = "1.0.0"
+__maintainer__ = "Akas Antony"
+__email__ = "antony.akas@gmail.com"
+
 def makeFrame():
 	video_path = raw_input("Enter video path:\n")
 	vidcap = cv2.VideoCapture(video_path)

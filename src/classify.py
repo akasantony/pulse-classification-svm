@@ -2,6 +2,11 @@ from config import assets_path
 from sklearn import svm
 import numpy as np
 
+__author__ = "Akas Antony"
+__version__ = "1.0.0"
+__maintainer__ = "Akas Antony"
+__email__ = "antony.akas@gmail.com"
+
 
 class Classify(object):
     def __init__(self):
